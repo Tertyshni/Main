@@ -2,7 +2,8 @@
 using namespace std;
 
 int square(int x) {
-    return x * x;
+    return x * x
+
 }
 
 int isEven(int a) {

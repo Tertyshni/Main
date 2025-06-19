@@ -8,7 +8,7 @@ struct Film {
    int duration;  
 };  
 
-Film createFilm();
+Film createNewFilm(const char* title, const char* director, const char* genre, int year, int duration);
 Film createNewFilm();
 void printFilm(const Film& film);  
 void deleteFilm(Film& film);  

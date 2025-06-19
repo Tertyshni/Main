@@ -36,6 +36,11 @@ void copyString(char*& dest, const char* src)
 {
 }
 
+Film createNewFilm(const char* title, const char* director, const char* genre, int year, int duration)
+{
+    return Film();
+}
+
 Film createNewFilm()
 {
     return Film();

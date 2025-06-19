@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "UK_UA");
     Film* films = nullptr;
     int filmCount = 0;
     int choice;

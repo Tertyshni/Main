@@ -1,0 +1,264 @@
+commit c51a5623d95c29c6275ca628b1d74a7c25177ac1
+Author: Artem <a19103296@gmail.com>
+Date:   Tue Jun 24 11:45:41 2025 +0300
+
+    File
+
+commit ec368738c28040b5be44f95e7d9646bfdf5beb39
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 13:06:06 2025 +0300
+
+    Student
+
+commit 694c3a1f52ffaca84f03d7bb1806fa33ad8f1bf4
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:37:26 2025 +0300
+
+    Film
+
+commit bd08483c21b56e58684603349d8d8b68e4d836cb
+Merge: a0dbe08 8c2150d
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:28:29 2025 +0300
+
+    Film
+
+commit a0dbe082e8163a7c83a63f9e744a1c27cd4a1e40
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:26:44 2025 +0300
+
+    Film
+
+commit b540625ebeae4e45a53965ffbd87e03d67bb767d
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:24:41 2025 +0300
+
+    Film
+
+commit 8c2150d4e63c15431844989c82a5152a2bcc4390
+Author: Tertyshni <a19103296@gmail.com>
+Date:   Thu Jun 19 12:24:17 2025 +0300
+
+    Delete Main/Film.h
+
+commit acd24d7425b58e890378f80efd971ce1c9a08034
+Author: Artem <a19103296@gmail.com>
+Date:   Wed Jun 18 13:23:28 2025 +0300
+
+    Film
+
+commit 9a3981aa6ec4498144140f17c05a3bc1b3ad6554
+Author: Artem <a19103296@gmail.com>
+Date:   Wed Jun 18 12:12:08 2025 +0300
+
+    dynamic2
+
+commit 4e7d94655f64ba3ec82f82a529ad7a22ca8126e0
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 15 20:47:44 2025 +0300
+
+    Struct
+
+commit 6b3bf4d0ae482ef53eb56cd7928d17c43c567f1c
+Author: Artem <a19103296@gmail.com>
+Date:   Wed Jun 11 20:10:31 2025 +0300
+
+    string
+
+commit 3283231abd1975e0302a4f80db2a0264df9deeca
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 8 15:05:08 2025 +0300
+
+    dynamic2
+
+commit 46f667ec44d3198f3569cf0aea7777969f2ed216
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 1 11:39:41 2025 +0300
+
+    dynamic
+
+commit 8964e85e1f830cde66c8204e10d1f315821775e0
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 1 10:07:58 2025 +0300
+
+    home
+
+commit efadc3f2321bba31d6bad12c8efdc8574ef4d20e
+Author: Artem <a19103296@gmail.com>
+Date:   Wed May 28 18:26:14 2025 +0300
+
+    pointer2
+
+commit 4de1b2c276740d33208d6281641d1e81723632fb
+Author: Artem <a19103296@gmail.com>
+Date:   Sun May 25 11:26:32 2025 +0300
+
+    point
+
+commit 867bee17dbe1d722bc3df3d8b18ded39cd225390
+Author: Artem <a19103296@gmail.com>
+Date:   Wed May 21 16:43:36 2025 +0300
+
+    rec
+
+commit fe824937ba9012c81d7f2010826516f1ce042a29
+Author: Artem <a19103296@gmail.com>
+Date:   Wed May 21 16:36:18 2025 +0300
+
+    work
+
+commit 17aae1e9999fbe73c7e8ab41d83ad904eee53e7e
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:39:28 2025 +0300
+
+    add file
+
+commit bc4cc27e3549f2aec4ac6a8302ae8f76553ded73
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:38:17 2025 +0300
+
+    commit2
+
+commit 7d90a83f851126fbd1605154e53907aa0156c8df
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:37:15 2025 +0300
+
+    Add project files.
+
+commit 28cb530c4a8c8c6b909350d3bf4796871e5a9845
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:37:12 2025 +0300
+
+    Add .gitattributes and .gitignore.
+commit c51a5623d95c29c6275ca628b1d74a7c25177ac1
+Author: Artem <a19103296@gmail.com>
+Date:   Tue Jun 24 11:45:41 2025 +0300
+
+    File
+
+commit ec368738c28040b5be44f95e7d9646bfdf5beb39
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 13:06:06 2025 +0300
+
+    Student
+
+commit 694c3a1f52ffaca84f03d7bb1806fa33ad8f1bf4
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:37:26 2025 +0300
+
+    Film
+
+commit bd08483c21b56e58684603349d8d8b68e4d836cb
+Merge: a0dbe08 8c2150d
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:28:29 2025 +0300
+
+    Film
+
+commit a0dbe082e8163a7c83a63f9e744a1c27cd4a1e40
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:26:44 2025 +0300
+
+    Film
+
+commit b540625ebeae4e45a53965ffbd87e03d67bb767d
+Author: Artem <a19103296@gmail.com>
+Date:   Thu Jun 19 12:24:41 2025 +0300
+
+    Film
+
+commit 8c2150d4e63c15431844989c82a5152a2bcc4390
+Author: Tertyshni <a19103296@gmail.com>
+Date:   Thu Jun 19 12:24:17 2025 +0300
+
+    Delete Main/Film.h
+
+commit acd24d7425b58e890378f80efd971ce1c9a08034
+Author: Artem <a19103296@gmail.com>
+Date:   Wed Jun 18 13:23:28 2025 +0300
+
+    Film
+
+commit 9a3981aa6ec4498144140f17c05a3bc1b3ad6554
+Author: Artem <a19103296@gmail.com>
+Date:   Wed Jun 18 12:12:08 2025 +0300
+
+    dynamic2
+
+commit 4e7d94655f64ba3ec82f82a529ad7a22ca8126e0
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 15 20:47:44 2025 +0300
+
+    Struct
+
+commit 6b3bf4d0ae482ef53eb56cd7928d17c43c567f1c
+Author: Artem <a19103296@gmail.com>
+Date:   Wed Jun 11 20:10:31 2025 +0300
+
+    string
+
+commit 3283231abd1975e0302a4f80db2a0264df9deeca
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 8 15:05:08 2025 +0300
+
+    dynamic2
+
+commit 46f667ec44d3198f3569cf0aea7777969f2ed216
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 1 11:39:41 2025 +0300
+
+    dynamic
+
+commit 8964e85e1f830cde66c8204e10d1f315821775e0
+Author: Artem <a19103296@gmail.com>
+Date:   Sun Jun 1 10:07:58 2025 +0300
+
+    home
+
+commit efadc3f2321bba31d6bad12c8efdc8574ef4d20e
+Author: Artem <a19103296@gmail.com>
+Date:   Wed May 28 18:26:14 2025 +0300
+
+    pointer2
+
+commit 4de1b2c276740d33208d6281641d1e81723632fb
+Author: Artem <a19103296@gmail.com>
+Date:   Sun May 25 11:26:32 2025 +0300
+
+    point
+
+commit 867bee17dbe1d722bc3df3d8b18ded39cd225390
+Author: Artem <a19103296@gmail.com>
+Date:   Wed May 21 16:43:36 2025 +0300
+
+    rec
+
+commit fe824937ba9012c81d7f2010826516f1ce042a29
+Author: Artem <a19103296@gmail.com>
+Date:   Wed May 21 16:36:18 2025 +0300
+
+    work
+
+commit 17aae1e9999fbe73c7e8ab41d83ad904eee53e7e
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:39:28 2025 +0300
+
+    add file
+
+commit bc4cc27e3549f2aec4ac6a8302ae8f76553ded73
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:38:17 2025 +0300
+
+    commit2
+
+commit 7d90a83f851126fbd1605154e53907aa0156c8df
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:37:15 2025 +0300
+
+    Add project files.
+
+commit 28cb530c4a8c8c6b909350d3bf4796871e5a9845
+Author: Artem <a19103296@gmail.com>
+Date:   Tue May 20 19:37:12 2025 +0300
+
+    Add .gitattributes and .gitignore.

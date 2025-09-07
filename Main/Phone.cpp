@@ -4,6 +4,9 @@
 #include "Phone.h"
 using namespace std;
 
+Phone* Phone::contacts = nullptr;
+int Phone::size = 0;
+
 Phone::Phone()
 {
 	name = new char[100];
@@ -148,16 +151,16 @@ void Phone::load(ifstream& fin)
 }
 
 void Phone::addContact(const Phone& c)
-    {
-      Phone* newContacts = new Phone[size + 1]; 
-      for (int i = 0; i < size; i++) {
-		  newContacts[i] = contacts[i]; 
-       }
-        newContacts[size] = c; 
-        delete[] contacts; 
-        contacts = newContacts; 
-        size++; 
-    }
+{
+	Phone* newContacts = new Phone[size + 1];
+	for (int i = 0; i < size; i++) {
+		newContacts[i] = contacts[i];
+	}
+	newContacts[size] = c;
+	delete[] contacts;
+	contacts = newContacts;
+	size++;
+}
 
 void Phone::deleteContact()
 {
@@ -185,7 +188,7 @@ void Phone::searchByName(const char* n)
 			return;
 		}
 	}
-	
+
 }
 
 void Phone::showAllContacts()
@@ -195,7 +198,7 @@ void Phone::showAllContacts()
 	}
 }
 
-void Phone::saveToFile(const string& file)
+void Phone::saveToFile(const char* file)
 {
 	ofstream fout(file);
 	if (!fout.is_open()) {
@@ -209,7 +212,7 @@ void Phone::saveToFile(const string& file)
 	fout.close();
 }
 
-void Phone::loadFromFile(const string& file)
+void Phone::loadFromFile(const char* file)
 {
 	ifstream fin(file);
 	if (!fin.is_open()) {
@@ -232,3 +235,4 @@ Phone::~Phone()
 	delete[] job;
 	delete[] contacts;
 }
+

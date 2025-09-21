@@ -5,28 +5,17 @@ private:
 	int numerator;
 	int denominator;
 public:
-	Fraction();                       
-	Fraction(int, int);              
-	Fraction(const Fraction&);
+	Fraction(int num = 0, int denom = 1);
+	int getNumerator() const;
+	int getDenominator() const;
+	Fraction operator+(const Fraction& other) const;
+	Fraction operator-(const Fraction& other) const;
+	Fraction operator*(const Fraction& other) const;
+	Fraction operator/(const Fraction& other) const;
 
-	int getNumerator();
-	int getDenominator();
-	void setNumerator(int);
-	void setDenominator(int);
-	void print();
-	void reduce();
-	bool isProper();
-	int gcd(int a, int b);
-	Fraction operator+(int);
-	Fraction operator+(const Fraction&);
-
-	Fraction operator-(int);
-	Fraction operator-(const Fraction&);
-
-	Fraction operator*(int);
-	Fraction operator*(const Fraction&);
-
-	Fraction operator/(int);
-	Fraction operator/(const Fraction&);
+	Fraction operator+(int value) const;
+	Fraction operator-(int value) const;
+	Fraction operator*(int value) const;
+	Fraction operator/(int value) const;
 };
 

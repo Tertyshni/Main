@@ -22,5 +22,6 @@ public:
 	void assign(const char* str);
 	int find(char c);
 	Mystring substr(size_t pos, size_t count) const;
+	Mystring& operator=(const Mystring& other);
 	void resize(int newSize);
 };

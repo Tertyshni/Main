@@ -4,21 +4,34 @@ using namespace std;
 
 int main() {
 	Mystring s("Hello");
-	cout << "s: " << s.c_str() << " size=" << s.size() << endl;
+	cout << s.c_str() << endl;
+
 	s.push_back('?');
-	cout << "push_back('?'):" << s.c_str() << endl;
+	cout << "Push back: " << s.c_str() << endl;	
+
 	s.pop_back();
-	cout << "pop_back():" << s.c_str() << endl;
+	cout << "Pop back: " << s.c_str() << endl;
+
 	s.append(" Tree");
-	cout << "append: " << s.c_str() << endl;
+	cout << "Append: " << s.c_str() << endl;
+
 	s.assign("New String");
-	cout << "assign: " << s.c_str() << endl;
-	cout << "find 'S': " << s.find('S') << endl;
-	Mystring sub = s.substr(4, 6);
-	cout << "substr(4,6): " << sub.c_str() << endl;
+	cout << "Assign: " << s.c_str() << endl;
+
+	cout << "Find 'S': " << s.find('S') << endl;
+
+	Mystring sub = s.substr(3, 5);
+	cout << "Substring(3, 5) : " << sub.c_str() << endl;
+
 	s.resize(5);
-	cout << "resize(5): " << s.c_str() << endl;
+	cout << "Resize to 5: " << s.c_str() << endl;
+
 	s.clear();
-	cout << "clear(): " << s.c_str() << " size=" << s.size() << endl;
+	cout << "Clear: " << s.c_str() << " size=" << s.size() << endl;
+
+	Mystring s2("Another String");
+	s = s2;
+	cout << "After assignment: " << s.c_str() << endl;
 	return 0;
+
 }

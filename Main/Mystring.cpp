@@ -145,6 +145,15 @@ Mystring Mystring::substr(size_t pos, size_t count) const
 	return subStr;
 }
 
+Mystring& Mystring::operator=(const Mystring& other)
+{
+	delete[] data;
+	length = other.length;
+	data = new char[length + 1];
+	strcpy_s(data, length + 1, other.data);
+	return *this;
+}
+
 void Mystring::resize(int newSize)
 {
 	char* newData = new char[newSize + 1];

@@ -1,45 +1,100 @@
 #include "String.h"
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 String::String()
 {
-	data = nullptr;
+	str = nullptr;
 	length = 0;
 }
 
 String::String(const char* str)
 {
-	length = strlen(str);
-	data = new char[length + 1];
-	strcpy_s(data, length + 1, str);
+	if (str)
+	{
+		length = 0;
+		while (str[length] != '\0')
+			length++;
+		this->str = new char[length + 1];
+		for (int i = 0; i < length; i++)
+			this->str[i] = str[i];
+		this->str[length] = '\0';
+	}
+	else
+	{
+		this->str = nullptr;
+		length = 0;
+	}
 }
 
 String::String(const String& other)
 {
 	length = other.length;
-	data = new char[length + 1];
-	strcpy_s(data, length + 1, other.data);
+	str = new char[length + 1];
+	strcpy(str, other.str);
 }
 
-String& String::operator=(const String& other)
+String::String(String&& other)
 {
-	if (this == &other)
-		return *this;
-	delete[] data;
-
+	str = other.str;
 	length = other.length;
-	data = new char[length + 1];
-	strcpy(data, other.data);
-	return *this;
+	other.str = nullptr;
+	other.length = 0;
 }
 
 String::~String()
 {
-	delete[] data;
+	delete[] str;
 }
 
-void String::print() const
+String& String::operator=(const String& other)
 {
-	cout << data << endl;
+	delete[] str;
+	length = other.length;
+	str = new char[length + 1];
+	strcpy(str, other.str);
+	return *this;
+}
+
+String& String::operator=(String&& other)
+{
+	delete[] str;
+	str = other.str;
+	length = other.length;
+	other.str = nullptr;
+	other.length = 0;
+	return *this;
+}
+
+String String::operator*(const String& other) const
+{
+	String result;
+	delete[] result.str;
+	result.length = 0;
+	result.str = new char[result.length + 1];
+	for (int i = 0; i < length; i++) {
+		result.str[result.length] = str[i];
+	}
+	result.length++;
+	result.str[result.length] = '\0';
+	return result;
+}
+
+String String::operator/(const String& other) const
+{
+	String result;
+	delete[] result.str;
+	result.length = 0;
+	result.str = new char[result.length + 1];
+	for (int i = 0; i < length; i++) {
+		result.str[result.length] = str[i];
+	}
+	result.length++;
+	result.str[result.length] = '\0';
+	return result;
+}
+
+void String::show() const
+{
+	cout << str << endl;
 }
